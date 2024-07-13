@@ -1,0 +1,344 @@
+*{
+    margin:0;
+    border:border-box;
+}
+.navbar{
+    background-color: black;
+    height:60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav_logo{
+    color:white;
+    display: flex;
+    justify-content: space-evenly;
+    width:216px;
+    
+}
+.logo{
+    width:100px;
+    height:50px;
+    
+    
+    background-image: url("https://www.thesun.co.uk/wp-content/uploads/2022/02/Amazon-Logo-1024x426-1.png");
+    background-size: cover;
+    /* width:100%;
+    height:40px; */
+    background-position: -11px;
+    background-position-y: 3px;
+}
+#add2{
+    display:flex;
+    justify-content:center;
+    font-size:1.1em;
+}
+.addressnav{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#add1{
+    font-size: 0.7rem;
+    color:#ccc;
+}
+.searchbar{
+    
+    display: flex;
+    
+    justify-content: space-evenly;
+    align-items: center;
+    
+    height:40px;
+    width:40%;
+    border:2px solid transparent;
+
+}
+.searchbar:hover{
+    border:2px solid orange;
+}
+#searchbtn{
+    display: flex;
+    background-color:rgb(218, 153, 31);
+    width:65px;
+    height:40px;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+#bar{
+    width:100%;
+    height:95%;
+    border:none;
+    
+
+
+}
+#options{
+    text-align: center;
+    height:100%;
+    background-color: #ccc;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+.country{
+    width:73px;
+    height:55px;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+#countryo{
+    background-color: black;
+    color:white;
+    border:none;
+}
+.signin{
+    width:130px;
+    height:55px;
+    color:white;
+    background-color: black;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+}
+#signino{
+    background-color: black;
+    color:white;
+    border:none;
+    font-size: 0.9rem;
+}
+.orders{
+    color:white;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 0.9rem;
+}
+.border{
+    border:3px solid transparent;
+}
+.border:hover{
+    border:3px solid white;
+}
+.cart {
+    /* display: flex; */
+    color:white;
+    
+    
+}
+.cart i {
+    font-size: 1.5em;
+}
+#minibar{
+    height:39px;
+    background-color:#222a2a;
+    display: flex;
+    color:white;
+    justify-content:space-evenly;
+    align-items:center;
+}
+#all{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
+#next2all{
+    display:flex;
+    /* justify-content:space-evenly; */
+    width:70%;
+    /* margin-right:10px; */
+}
+#panelend{
+    font-size:1.2rem;
+    font-weight:600;
+}
+#next2all p {
+    margin-left:10px;
+
+}
+/* box 3 */
+
+.hero{
+    height:500px;
+    background-image:url("https://m.media-amazon.com/images/I/71KfZkbgStL._SX3000_.jpg");
+    background-size:cover;
+    display:flex;
+    align-items:flex-end;
+    justify-content:center;
+}
+.herolinks{
+    height:40px;
+    background-color:white;
+    display:flex;
+    
+    justify-content:center;
+    align-items:center;
+    font-size:18;
+    width:95%;
+    margin-bottom:5%;
+}
+.box{
+    width:23%;
+    height:420px;
+    background-color:white;
+    /* border:2px solid white; */
+    display:flex;
+    flex-direction:column;
+    justify-content: space-evenly;
+    align-items:center;
+    margin-bottom:20px;
+}
+.shopping{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+    background-color:rgb(225, 162, 225);
+    
+}
+.itempic1{
+    background-color: #222a2a;
+    width:90%;
+    height:70%;
+    background-image: url("https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Events/2023/EBF23/Fuji_Desktop_Single_image_EBF_1x_v1._SY304_CB573698005_.jpg");
+    background-size:cover;
+    background-position-x:-65px;
+}
+.itempic2{
+    background-color: #222a2a;
+    width:90%;
+    height:70%;
+    background-image: url("https://images-na.ssl-images-amazon.com/images/G/01/US-hq/2023/img/Consumer_Electronics/XCM_CUTTLE_1546843_2940864_379x304_1X_en_US._SY304_CB613273467_.jpg");
+    background-size:cover;
+    background-position-x:-65px;
+}
+.itempic3{
+    background-color: #222a2a;
+    width:90%;
+    height:70%;
+    background-image: url("https://images-na.ssl-images-amazon.com/images/G/01/US-hq/2023/img/Consumer_Electronics/XCM_CUTTLE_1622892_3373436_379x304_1X_en_US._SY304_CB597161294_.jpg");
+    background-size:cover;
+    background-position-x:-65px;
+}
+.itempic4{
+    background-color: #222a2a;
+    width:90%;
+    height:70%;
+    background-image: url("https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Events/2024/Easter/Fuji_Easter_Dash_card_1x_EN._SY304_CB581341381_.jpg");
+    background-size:cover;
+    background-position-x:-65px;
+}
+.itempic5{
+    background-color: #222a2a;
+    width:90%;
+    height:70%;
+    background-image: url("https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Events/2023/EBF23/Fuji_Desktop_Single_image_EBF_1x_v6._SY304_CB573698005_.jpg");
+    background-size:cover;
+    background-position-x:-65px;
+}
+.itempic6{
+    background-color: #222a2a;
+    width:90%;
+    height:70%;
+    background-image: url("https://images-na.ssl-images-amazon.com/images/G/01/us-manual-merchandising/RBS-in-house-Graphics/cc_359_laptop_us_v1._SY304_CB576754001_.jpg");
+    background-size:cover;
+    background-position-x:-65px;
+}
+.itempic7{
+    background-color: #222a2a;
+    width:90%;
+    height:70%;
+    background-image: url("https://images-na.ssl-images-amazon.com/images/G/01/dex/2023/Roar/October/D_CC_Roar_OfficeDepot_1023_1X_Furnitrure_v2._SY304_CB577544739_.jpg");
+    background-size:cover;
+    background-position-x:-65px;
+}
+.itempic8{
+    background-color: #222a2a;
+    width:90%;
+    height:70%;
+    background-image: url("https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Events/2023/EBF23/Fuji_Desktop_Single_image_EBF_1x_v10._SY304_CB573698005_.jpg");
+    background-size:cover;
+    background-position-x:-65px;
+}
+.footer1{
+    height:50px;
+    background-color:#37475a;
+    color:white;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:0.85rem;
+}
+footer{
+    margin-top:15px;
+}
+a {
+    display:block;
+}
+.footer2{
+    display:flex;
+    justify-content:space-evenly;
+    background-color: #222f3d;
+    color:white;
+    height:240px;
+}
+
+.footer2 ul{
+    margin-top:50px;
+}
+ul p{
+    font-size:1.2rem;
+    margin-bottom:10px;
+}
+ul a{
+    font-size:0.8rem;
+    margin-top:5px;
+}
+.footer3{
+    height:70px;
+    background-color: #222f3d;
+    border-top:0.5px solid white;
+    display:flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    align-items:center;
+}
+.footlogo{
+    height:50px;
+    width:120px;
+    background-image:url("https://media.licdn.com/dms/image/C4D16AQEeTo4bHobwrg/profile-displaybackgroundimage-shrink_200_800/0/1655491090958?e=2147483647&v=beta&t=XgQPvunnc4h5S0fjaA__qCvP85EGCt7pMjHp4Z5MhIA");
+    background-size:cover;
+    background-position: center;
+}
+#footselect{
+    background-color: #222f3d;
+    border:0.1px solid white;
+    width:100px;
+}
+.anchortags{
+    display:flex;
+    justify-content: center;
+    
+}
+.anchortags a{
+    margin-left: 15px;
+    font-size: 0.85rem;
+}
+.copyright{
+    display:flex;
+    justify-content: center;
+    margin-top:5px;
+}
+.lastfooter{
+    background-color: #222a2a;
+    height:70px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    color:white;
+}
+
+
+
